@@ -16,7 +16,7 @@ local count_ents = #DPERMA_ENTS
 
 ---@param entity Entity
 local function addProp( entity )
-	print( string.format( "[DPerma] '%s' added by '%s'!", entity, entity:GetCreator() )
+	print( string.format( "[DPerma] '%s' added by '%s'!", entity, entity:GetCreator() ) )
 	DPERMA_ENTS[ #DPERMA_ENTS + 1 ] = entity
 	count_ents = count_ents + 1
 end
